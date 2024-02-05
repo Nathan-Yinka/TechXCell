@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.scroll {
+  display: flex;
+  align-items: center;
+  width: 50px !important;
+  justify-content: center;
+  height: 50px !important;
+  border-radius: 50% !important;
+  margin-bottom: 3rem !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
